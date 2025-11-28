@@ -10,7 +10,7 @@ The app allows users to:
 
 No database or UI was required, as mentioned in the task description.
 
-**1. Approach and Design**
+1. Approach and Design
 
 I wanted to build the application in a way that is simple, readable, and easy to maintain.
 I divided the project into three small classes, each with a clear responsibility:
@@ -39,7 +39,8 @@ Interacts with the user and triggers operations in TodoApp
 
 This structure keeps the code modular, making each part easier to test and understand.
 
-**2. Project Structure**
+2. Project Structure
+   
 `todo-app/
 │
 ├── Main.java          → Runs the menu and user interface
@@ -48,7 +49,8 @@ This structure keeps the code modular, making each part easier to test and under
 ├── tasks.txt          → Stores all saved tasks
 └── README.md          → Project documentation`
 
-**3. System Overview (Simple Class Diagram)**
+3. System Overview (Simple Class Diagram)
+   
 Class Diagram – High Level
 +------------+         +------------+          +-------------+
 |   Main     | ----->  |  TodoApp   | ----->   |    Task     |
@@ -73,7 +75,7 @@ Main:
  - showMenu()
  - connect user actions to TodoApp
 
-** 4. How to Run the Application**
+4. How to Run the Application
 Prerequisites
 
 Java installed (Java 17 or above recommended)
@@ -101,8 +103,8 @@ A menu will appear allowing you to:
 3. List tasks
 4. Exit the app
 
-**5. Testing and Verification
-Test Data Used**
+5. Testing and Verification
+Test Data Used
 
 I added a few sample tasks manually to validate:
 
@@ -118,7 +120,7 @@ Verification Steps
 3. Remove a task and re-list to confirm
 4. Check the tasks.txt file to see updated data
 
-**6. Key Learnings**
+6. Key Learnings
 While building this app, I practiced:
 Working with Java file I/O
 Designing small object-oriented classes
@@ -126,5 +128,5 @@ Handling user input
 Managing lists and parsing data
 Keeping code simple and readable
 
-**7. Conclusion**
+7. Conclusion
 This project meets all the requirements from the assignment. It is lightweight, modular, and demonstrates clear understanding of Java basics, file handling, and simple application design.
