@@ -1,0 +1,6 @@
+Apply for a job|career|false
+Paying bills|personal|false
+buying grocery|personal|false
+preparing food|cooking|false
+go to gym|personal|false
+Finish capgemini assignment|Work|false
