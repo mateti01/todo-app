@@ -29,7 +29,7 @@ public class Task {
 
     // Convert Task to one line for saving in the file
     public String toFileString() {
-        // Example: Buy milk|Personal|false
+        // Example: Paying bills|Personal|false
         return title + "|" + category + "|" + done;
     }
 
